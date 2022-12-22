@@ -2,5 +2,5 @@
     display: flex;
     justify-content: space-between;
     width: 1184px;
-    top: 28px;
+    margin: 28px 48px 0 48px;
 }
