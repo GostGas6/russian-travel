@@ -1,2 +1,14 @@
-@import url(Inter/Inter-Black.woff);
-@import url(Inter/Inter-Black.woff2);
+@font-face {
+    font-family: 'Inter';
+    src: url(../vendor/Inter/Inter.var.woff2);
+}
+
+@font-face {
+    font-family: 'Inter-Bold';
+    src: url(../vendor/Inter/Inter-Bold.woff2);
+}
+
+@font-face {
+    font-family: 'Inter-Light';
+    src: url(/vendor/Inter/Inter-Light.woff2);
+}
