@@ -1,10 +1,14 @@
+body {
+    background-color: #2A2C2F;
+    margin: 0;
+}
+
 .page {
     position: relative;
     max-width: 1280px;
-    height: 6875px;
     background-color: #2A2C2F;
     overflow: hidden;
-    margin: 0 auto;
+    margin: auto;
     font-family: 'Inter';
     display: flex;
     flex-direction: column;
