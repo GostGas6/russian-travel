@@ -6,7 +6,7 @@
     color: white;
     margin: auto;
     margin-bottom: 64px;
-    font-family: 'Inter';
+    font-family: 'Inter', 'Arial', sans-serif;
     width: 640px;
     height: 72px;
 }

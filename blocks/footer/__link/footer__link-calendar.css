@@ -1,0 +1,8 @@
+.footer__link-calendar {
+    margin-right: 18px;
+    opacity: 1;
+}
+
+.footer__link-calendar:hover {
+    opacity: 0.6;
+}

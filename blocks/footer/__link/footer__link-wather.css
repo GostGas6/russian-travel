@@ -1,0 +1,8 @@
+.footer__link-weather {
+    margin-right: 18px;
+    opacity: 1;
+}
+
+.footer__link-weather:hover {
+    opacity: 0.6;
+}

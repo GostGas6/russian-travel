@@ -1,0 +1,8 @@
+.footer__link-maps {
+    margin-right: 18px;
+    opacity: 1;
+}
+
+.footer__link-maps:hover {
+    opacity: 0.6;
+}
