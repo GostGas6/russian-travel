@@ -9,3 +9,10 @@
 .cover__overlay:hover {
     opacity: 0.8;
 }
+
+@media screen and (max-width: 1210px) {
+    .cover__overlay {
+        width: 118.5%;
+        height: 100%;
+    }
+}

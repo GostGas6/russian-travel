@@ -2,5 +2,21 @@
     display: flex;
     justify-content: space-between;
     width: 1184px;
-    margin: 28px 48px 0 48px;
+    margin: auto;
 }
+
+@media screen and (max-width: 1210px) {
+    .header {
+        width: 1000px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .header {
+        width: 928px;
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+    }
+}
+

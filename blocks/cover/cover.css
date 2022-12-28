@@ -1,6 +1,5 @@
 .cover {
     width: 1184px;
-    height: 740px;
     display: flex;
     justify-content: center;
     margin-left: 48px;
@@ -8,4 +7,10 @@
     margin-top: 92px;
     margin-bottom: 92px;
     position: relative;
+}
+
+@media screen and (max-width: 1210px) {
+    .cover {
+        width: 1000px;
+    }
 }

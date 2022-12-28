@@ -9,10 +9,12 @@ body {
     background-color: #2A2C2F;
     overflow: hidden;
     margin: auto;
+    padding-top: 28px;
     font-family: 'Inter', 'Arial', sans-serif;
     display: flex;
     flex-direction: column;
     -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; 
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
     -moz-text-size-adjust: 100%;
