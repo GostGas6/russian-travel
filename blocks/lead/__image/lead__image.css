@@ -1,12 +1,13 @@
 .lead__image {
     width: 100%;
+    height: auto;
 }
 
+/*
 @media screen and (max-width: 1210px) {
     .lead__image {
         width: 960px;
-        height: 600px
-    };
+        height: 600px};
 }
 
 @media screen and (max-width: 1024px) {
@@ -15,3 +16,4 @@
         height: 580px;
     }
 }
+*/

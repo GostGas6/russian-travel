@@ -8,3 +8,7 @@
     font-weight: 400;
     text-align: right;
 }
+
+.header__lang-link:hover {
+    opacity: 0.6;
+}
