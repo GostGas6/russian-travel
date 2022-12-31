@@ -1,0 +1,28 @@
+.left-column {
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 1280px) {
+    .left-column {
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .left-column {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .left-column {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .left-column {
+        width: 100%;
+    }
+}
