@@ -1,6 +1,28 @@
 .place__paragraph {
-    width: 484px;
+    width: 100%;
     font-size: 18px;
-    line-height: 29px;
+    line-height: 29.34px;
     margin-bottom: 26px;
+}
+
+@media screen and (max-width: 1024px) {
+    .place__paragraph {
+        margin-bottom: 27px;
+        line-height: 29.34px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .place__paragraph {
+        margin-bottom: 25px;
+        font-size: 16px;
+        line-height: 26.08px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .place__paragraph {
+        margin-bottom: 25px;
+        line-height: 26.08px;
+    }
 }

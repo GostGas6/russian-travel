@@ -7,6 +7,26 @@
     margin: auto;
     margin-bottom: 64px;
     font-family: 'Inter', 'Arial', sans-serif;
-    width: 640px;
-    height: 72px;
+    width: 50%;
+}
+
+@media screen and (max-width: 1280px) {
+    .lead__subtitle {
+        width: 58%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .lead__subtitle {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .lead__subtitle {
+        margin-bottom: 40px;
+        margin-top: 16px;
+        font-size: 16px;
+        line-height: 20px;
+    }
 }

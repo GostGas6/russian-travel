@@ -1,5 +1,24 @@
 .place {
+    width: 100%;
     display: flex;
     flex-direction: row;
+    margin: 0 auto;
+    justify-content: space-between;
     margin-top: 80px;
+}
+
+@media screen and (max-width: 520px) {
+    .place {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .place {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
 }
