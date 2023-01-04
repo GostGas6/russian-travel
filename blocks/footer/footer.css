@@ -7,8 +7,22 @@
     margin-bottom: 24px;
 }
 
-@media screen and (max-width: 1210px) {
+@media screen and (max-width: 1280px) {
     .footer {
-        width: 1000px;
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 712px) {
+    .footer {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .footer {
+        width: 75%;
+        flex-direction: column;
+        margin-left: 16px;
     }
 }

@@ -5,3 +5,10 @@
 .footer__link-travel:hover {
     opacity: 0.6;
 }
+
+@media screen and (max-width: 320px) {
+    .footer__link-travel {
+        font-size: 24px;
+        line-height: 24px;
+    }
+}

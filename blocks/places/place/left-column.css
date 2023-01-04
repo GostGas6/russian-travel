@@ -3,3 +3,11 @@
     display: flex;
     flex-direction: column;
 }
+
+@media screen and (max-width: 520px) {
+    .left-column {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+}

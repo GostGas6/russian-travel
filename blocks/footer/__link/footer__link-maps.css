@@ -6,3 +6,11 @@
 .footer__link-maps:hover {
     opacity: 0.6;
 }
+
+@media screen and (max-width: 320px) {
+    .footer__link-maps {
+        font-size: 24px;
+        line-height: 24px;
+        margin-bottom: 32px;
+    }
+}
