@@ -6,6 +6,13 @@
     opacity: 0.6;
 }
 
+@media screen and (max-width: 712px) {
+    .footer__link-travel {
+        padding-bottom: 24px;
+    }
+}
+
+
 @media screen and (max-width: 320px) {
     .footer__link-travel {
         font-size: 24px;

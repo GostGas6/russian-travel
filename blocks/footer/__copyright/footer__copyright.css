@@ -6,6 +6,13 @@
     text-align: right;
 }
 
+@media screen and (max-width: 712px) {
+    .footer__copyright {
+        align-self: flex-end;
+    }
+}
+
+
 @media screen and (max-width: 320px) {
     .footer__copyright {
         align-self: flex-start;
