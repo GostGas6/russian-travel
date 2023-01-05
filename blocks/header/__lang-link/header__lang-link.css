@@ -7,11 +7,13 @@
     line-height: 28px;
     font-weight: 400;
     text-align: right;
+    margin-top: 18px;
 }
 
 .header__lang-link:hover {
     opacity: 0.6;
 }
+
 
 @media screen and (max-width: 320px) {
     .header__lang-link {
