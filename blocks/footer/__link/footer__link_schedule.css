@@ -1,21 +1,21 @@
-.footer__link-schedule {
+.footer__link_schedule {
     margin-right: 18px;
     opacity: 1;
 }
 
-.footer__link-schedule:hover {
+.footer__link_schedule:hover {
     opacity: 0.6;
 }
 
 @media screen and (max-width: 712px) {
-    .footer__link-schedule {
+    .footer__link_schedule {
         line-height: 18px;
     }
 }
 
 
 @media screen and (max-width: 320px) {
-    .footer__link-schedule {
+    .footer__link_schedule {
         font-size: 24px;
         line-height: 24px;
         margin-bottom: 32px;

@@ -1,20 +1,20 @@
-.footer__link-travel {
+.footer__link_travel {
     opacity: 1;
 }
 
-.footer__link-travel:hover {
+.footer__link_travel:hover {
     opacity: 0.6;
 }
 
 @media screen and (max-width: 712px) {
-    .footer__link-travel {
+    .footer__link_travel {
         padding-bottom: 24px;
     }
 }
 
 
 @media screen and (max-width: 320px) {
-    .footer__link-travel {
+    .footer__link_travel {
         font-size: 24px;
         line-height: 24px;
     }

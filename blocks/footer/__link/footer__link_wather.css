@@ -1,20 +1,21 @@
-.footer__link-calendar {
+.footer__link_weather {
     margin-right: 18px;
     opacity: 1;
 }
 
-.footer__link-calendar:hover {
+.footer__link_weather:hover {
     opacity: 0.6;
 }
 
 @media screen and (max-width: 712px) {
-    .footer__link-calendar {
+    .footer__link_weather {
         line-height: 18px;
     }
 }
 
+
 @media screen and (max-width: 320px) {
-    .footer__link-calendar {
+    .footer__link_weather {
         font-size: 24px;
         line-height: 24px;
         margin-bottom: 32px;

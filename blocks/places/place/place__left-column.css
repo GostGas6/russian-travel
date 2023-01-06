@@ -1,11 +1,11 @@
-.left-column {
+.place__left-column {
     width: 46%;
     display: flex;
     flex-direction: column;
 }
 
 @media screen and (max-width: 520px) {
-    .left-column {
+    .place__left-column {
         display: flex;
         flex-direction: column;
         width: 100%;
