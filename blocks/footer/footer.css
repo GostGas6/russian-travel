@@ -19,10 +19,8 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 720px) {
     .footer {
-        width: 75%;
-        flex-direction: column;
-        margin-left: 16px;
+        display: grid;
     }
 }

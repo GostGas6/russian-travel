@@ -7,16 +7,8 @@
     text-align: right;
 }
 
-@media screen and (max-width: 712px) {
+@media screen and (max-width: 720px) {
     .footer__copyright {
-        align-self: flex-end;
-    }
-}
-
-
-@media screen and (max-width: 320px) {
-    .footer__copyright {
-        align-self: flex-start;
         margin-top: 48px;
         padding-bottom: 24px;
         line-height: 14px;

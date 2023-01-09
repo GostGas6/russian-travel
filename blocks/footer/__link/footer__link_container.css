@@ -6,12 +6,12 @@
 @media screen and (max-width: 768px) {
     .footer__link_container {
         width: 70%;
-        flex-direction: column;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 720px) {
     .footer__link_container {
-        width: 100%;
+        display: grid;
+        gap: 32px;
     }
 }
