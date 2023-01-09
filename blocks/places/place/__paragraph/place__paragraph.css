@@ -5,7 +5,6 @@
     font-size: 18px;
     line-height: 29.34px;
     margin-bottom: 26px;
-    margin: 0 auto;
 }
 
 @media screen and (max-width: 1024px) {
@@ -25,8 +24,6 @@
 
 @media screen and (max-width: 520px) {
     .place__paragraph {
-        display: flex;
-        flex-direction: column;
         margin-left: 16px;
     }
 }

@@ -1,9 +1,0 @@
-.kosa-url {
-    padding-top: 76px;
-}
-
-@media screen and (max-width: 768px) {
-    .kosa-url {
-        padding-top: 0;
-    }
-}

@@ -1,17 +1,8 @@
 .place__paragraph-container {
-    margin-top: 48px;
-    display: flex;
-    flex-direction: column;
+    margin-bottom: 48px;
 }
 
 @media screen and (max-width: 520px) {
-    .place__paragraph-container {
-        width: 90%;
-    }
-}
-
-
-@media screen and (max-width: 320px) {
     .place__paragraph-container {
         width: 90%;
     }

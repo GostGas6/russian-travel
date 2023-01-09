@@ -3,7 +3,7 @@
     justify-content: space-between;
 }
 
-@media screen and (max-width: 712px) {
+@media screen and (max-width: 768px) {
     .footer__link_container {
         width: 70%;
         flex-direction: column;
