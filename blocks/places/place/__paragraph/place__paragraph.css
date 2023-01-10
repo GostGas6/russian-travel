@@ -3,15 +3,19 @@
     font-family: 'Inter', 'Arial', sans-serif;
     font-weight: 400;
     font-size: 18px;
-    line-height: 29.34px;
+    line-height: 29px;
     margin-bottom: 26px;
+    margin: 0;
+    margin-bottom: 26px;
+}
+
+.place__paragraph:last-child {
     margin: 0;
 }
 
 @media screen and (max-width: 1024px) {
     .place__paragraph {
         margin-bottom: 27px;
-        line-height: 29.34px;
     }
 }
 
@@ -26,13 +30,5 @@
 @media screen and (max-width: 520px) {
     .place__paragraph {
         margin-left: 16px;
-    }
-}
-
-
-@media screen and (max-width: 320px) {
-    .place__paragraph {
-        margin-bottom: 25px;
-        line-height: 26.08px;
     }
 }
