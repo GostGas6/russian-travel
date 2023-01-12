@@ -1,11 +1,10 @@
 .place {
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(2, fit-content(460px));
-    grid-template-rows: repeat(2, fit-content(484px));
-    gap: 40px 48px;
-    margin: 0 auto;
-    margin-top: 92px;
+    grid-template-columns: repeat(2, fit-content(484px));
+    grid-template-rows: repeat(2, fit-content(460px));
+    gap: 48px 40px;
+    margin-bottom: 80px;
 }
 
 @media screen and (max-width: 1024px) {
