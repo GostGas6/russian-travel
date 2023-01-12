@@ -1,10 +1,11 @@
 .page {
     position: relative;
+    width: 100%;
     background-color: #2A2C2F;
     margin: 0;
-    padding-top: 28px;
     font-family: 'Inter', 'Arial', sans-serif;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -13,4 +14,10 @@
     -moz-text-size-adjust: 100%;
     text-rendering: optimizeLegibility;
     color: white;
+}
+
+@media screen and (min-width: 1281px) {
+    .page {
+        align-items: center;
+    }
 }
