@@ -15,9 +15,3 @@
     text-rendering: optimizeLegibility;
     color: white;
 }
-
-@media screen and (min-width: 1281px) {
-    .page {
-        align-items: center;
-    }
-}

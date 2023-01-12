@@ -10,6 +10,13 @@
     margin-right: 48px;
 }
 
+@media screen and (max-width: 1024px) {
+    .footer {
+        max-width: 928px;
+        margin-left: 48px;
+    }
+}
+
 @media screen and (max-width: 720px) {
     .footer {
         display: grid;
