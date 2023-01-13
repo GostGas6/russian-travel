@@ -7,17 +7,10 @@
     position: relative;
 }
 
-@media screen and (max-width: 1280px) {
-    .cover {
-        height: 740px;
-    }
-}
-
 @media screen and (max-width: 1024px) {
     .cover {
         margin: 0;
         margin-bottom: 92px;
-        height: 640px;
     }
 }
 
