@@ -7,7 +7,6 @@
     margin: 0;
     margin-bottom: 24px;
     margin-left: 48px;
-    margin-right: 48px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -17,8 +16,20 @@
     }
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 768px) {
+    .footer {
+        max-width: 720px;
+        margin-left: 24px;
+    }
+}
+
+@media screen and (max-width: 320px) {
     .footer {
         display: grid;
+        max-width: 186px;
+        grid-template-rows: repeat(2, 1fr);
+        gap: 48px;
+        margin: 0;
+        margin-left: 16px;
     }
 }

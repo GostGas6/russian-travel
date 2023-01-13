@@ -3,7 +3,7 @@
     text-decoration: none;
     justify-self: center;
     width: 100%;
-    min-height: 740px;
+    max-height: 740px;
     margin: 0;
     display: grid;
     grid-template-columns: repeat(8, 1fr);
@@ -18,9 +18,18 @@
     .cover__overlay {
         grid-template-columns: repeat(5, 1fr);
         grid-template-rows: repeat(4, 1fr);
-        min-height: 640px;
+        max-height: 640px;
         max-width: 1024px;
         width: 100%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .cover__overlay {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        max-width: 320px;
+        
     }
 }
 
