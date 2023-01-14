@@ -2,10 +2,19 @@
     max-width: 1184px;
     width: 100%;
     margin-left: 48px;
+    margin-right: 48px;
     margin-top: 92px;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(284px, 1fr));
     grid-gap: 16px;
+}
+
+@media screen and (max-width: 1250px) {
+    .photo-grid {
+        grid-template-columns: repeat(3, 300px);
+        grid-gap: 14px;
+        max-width: 928px;
+    }
 }
 
 @media screen and (max-width: 1024px) {
