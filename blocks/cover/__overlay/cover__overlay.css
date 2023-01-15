@@ -20,7 +20,7 @@
     }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1088px) {
     .cover__overlay {
         grid-template-columns: repeat(5, 1fr);
         grid-template-rows: repeat(4, 1fr);

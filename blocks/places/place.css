@@ -1,6 +1,5 @@
 .place {
     width: 100%;
-    max-height: 640px;
     display: grid;
     grid-template-columns: repeat(2, fit-content(460px));
     grid-template-rows: repeat(2, fit-content(484px));
@@ -8,7 +7,7 @@
     margin-bottom: 80px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1088px) {
     .place {
         grid-template-columns: repeat(2, fit-content(440px));
         grid-template-rows: repeat(2, fit-content(456px));
