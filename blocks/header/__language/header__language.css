@@ -1,4 +1,5 @@
 .header__language {
     display: flex;
+    gap: 18px;
 }
 

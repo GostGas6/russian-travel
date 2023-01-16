@@ -7,8 +7,8 @@
     line-height: 28px;
     font-weight: 400;
     text-align: right;
-    margin-top: 18px;
-    margin-left: 18px;
+    align-items: flex-end;
+    margin: 0;
 }
 
 .header__lang-link:hover {

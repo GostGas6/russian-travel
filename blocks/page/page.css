@@ -1,7 +1,8 @@
 .page {
     position: relative;
     background-color: #2A2C2F;
-    margin: 0;
+    max-width: 1280px;
+    margin: 0 auto;
     font-family: 'Inter', 'Arial', sans-serif;
     display: flex;
     flex-wrap: wrap;
@@ -14,4 +15,10 @@
     text-rendering: optimizeLegibility;
     color: white;
     align-items: center;
+}
+
+@media screen and (max-width: 1280px) {
+    .page {
+        align-items: flex-start;
+    }
 }

@@ -2,15 +2,12 @@
     width: 100%;
     display: grid;
     grid-template-columns: repeat(2, fit-content(460px));
-    grid-template-rows: repeat(2, fit-content(484px));
     gap: 48px 40px;
-    margin-bottom: 80px;
 }
 
 @media screen and (max-width: 1088px) {
     .place {
         grid-template-columns: repeat(2, fit-content(440px));
-        grid-template-rows: repeat(2, fit-content(456px));
         gap: 48px 32px;
     }
 }
@@ -18,18 +15,15 @@
 @media screen and (max-width: 768px) {
     .place {
         grid-template-columns: repeat(2, fit-content(340px));
-        grid-template-rows: repeat(2, fit-content(352px));
-        gap: 48px 28px;
+        column-gap: 28px;
         margin: 0;
-        margin-bottom: 73px;
-        max-width: 720px;
+
     }
 }
 
 @media screen and (max-width: 520px) {
     .place {
         grid-template-columns: repeat(1, fit-content(320px));
-        grid-template-rows: repeat(1, fit-content(288px));
         gap: 32px;
         margin: 0;
         margin-top: 50px;
