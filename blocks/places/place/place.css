@@ -14,10 +14,9 @@
 
 @media screen and (max-width: 768px) {
     .place {
-        grid-template-columns: repeat(2, fit-content(340px));
+        grid-template-columns: minmax(min-content, 340px);
         column-gap: 28px;
         margin: 0;
-
     }
 }
 

@@ -4,12 +4,12 @@
     margin-top: 92px;
     margin-bottom: 92px;
     position: relative;
+    box-sizing: border-box;
 }
 
 @media screen and (max-width: 1250px) {
     .cover {
         max-width: 1024px;
-        margin: 0 auto;
         margin-bottom: 92px;
     }
 }
@@ -33,19 +33,12 @@
 @media screen and (max-width: 768px) {
     .cover {
         max-width: 768px;
-        margin: 0 auto;
         margin-bottom: 92px;
         margin-top: 92px;
     }
 }
 
-@media screen and (max-width: 668px) {
-    .cover {
-        
-    }
-}
-
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 665px) {
     .cover {
         margin: 0;
         max-width: 320px;
