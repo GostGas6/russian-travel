@@ -11,13 +11,14 @@
 
 @media screen and (max-width: 1250px) {
     .header {
+        width: 90%;
         max-width: 928px;
     }
 }
 
 @media screen and (max-width: 1023px) {
     .header {
-        width: 90.6%;
+        width: 87.5%;
         max-width: 720px;
     }
 }
@@ -25,13 +26,14 @@
 @media screen and (max-width: 767px) {
     .header {
         max-width: 720px;
-        width: 90%;
+        width: 86%;
         padding: 28px 24px 48px 24px;
     }
 }
 
 @media screen and (max-width: 320px) {
     .header {
+        width: 90%;
         max-width: 288px;
         padding-left: 16px;
         padding-right: 16px;
