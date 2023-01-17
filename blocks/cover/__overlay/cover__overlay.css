@@ -12,6 +12,7 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    z-index: 1;
 }
 
 @media screen and (max-width: 1024px) {
@@ -42,11 +43,10 @@
     }
 }
 
-
 .cover__overlay::before {
     content: "";
     position: absolute;
-    background-color: rgba(42, 44, 47);
+    background-color: rgb(42, 44, 47);
     opacity: 0.3;
     top: 0;
     left: 0;
@@ -56,6 +56,6 @@
 }
 
 .cover__overlay:hover {
+    background-color: rgb(42, 44, 47);
     opacity: 0.8;
-    background-color: rgba(42, 44, 47);
 }
