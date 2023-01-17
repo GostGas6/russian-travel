@@ -15,15 +15,14 @@
 
 @media screen and (max-width: 768px) {
     .place {
-        grid-template-columns: minmax(min-content, 340px);
         column-gap: 28px;
         margin: 0;
     }
 }
 
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 600px) {
     .place {
-        grid-template-columns: repeat(1, fit-content(320px));
+        grid-template-columns: 320px;
         gap: 32px;
         margin: 0;
         margin-top: 50px;
@@ -35,6 +34,5 @@
         grid-template-columns: 320px;
         gap: 32px;
         margin: 0;
-        margin-top: 50px;
     }
 }

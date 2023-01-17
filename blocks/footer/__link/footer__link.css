@@ -8,9 +8,15 @@
     opacity: 1;
     margin-right: 18px;
 }
-.footer__link:last-child{
-    margin: 0;
+
+
+@media screen and (max-width: 320px) {
+    .footer__link:last-child {
+        margin: 0;
+    }
 }
+
+
 
 .footer__link:hover {
     opacity: 0.6;

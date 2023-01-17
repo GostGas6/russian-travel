@@ -23,25 +23,25 @@
 
 @media screen and (max-width: 768px) {
     .cover__overlay {
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(4, 1fr);
-        row-gap: 32px;
-        margin: 0 auto;
-        margin-bottom: 92px;
-        margin-top: 92px;
         max-width: 768px;
+        max-height: 480px;
     }
 }
 
-@media screen and (max-width: 665px) {
+@media screen and (max-width: 422px) {
     .cover__overlay {
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(2, 1fr);
-        max-width: 320px;
-        max-height: 200px;
-        row-gap: 16px;
+        max-width: 768px;
+        max-height: 480px;
     }
 }
+
+@media screen and (max-width: 320px) {
+    .cover__overlay {
+        max-width: 320px;
+        max-height: 200px;
+    }
+}
+
 
 .cover__overlay::before {
     content: "";
