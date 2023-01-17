@@ -55,7 +55,7 @@
     color: white;
 }
 
-.cover__overlay:hover {
+.cover__overlay:hover::before {
     background-color: rgb(42, 44, 47);
     opacity: 0.8;
 }
