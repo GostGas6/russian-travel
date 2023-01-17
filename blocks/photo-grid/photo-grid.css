@@ -9,27 +9,11 @@
     grid-gap: 16px;
 }
 
-@media screen and (max-width: 1250px) {
-    .photo-grid {
-        grid-gap: 14px;
-        max-width: 92.5%;
-        margin: 0 auto;
-        margin-top: 92px;
-    }
-}
-
 @media screen and (max-width: 1024px) {
     .photo-grid {
-        width: 90.2%;
         max-width: 928px;
         grid-gap: 14px;
-    }
-}
-
-@media screen and (max-width: 940px) {
-    .photo-grid {
-        width: 100%;
-        max-width: 720px;
+        margin-top: 92px;
     }
 }
 

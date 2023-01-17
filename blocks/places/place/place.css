@@ -5,10 +5,11 @@
     gap: 48px 40px;
 }
 
-@media screen and (max-width: 1088px) {
+@media screen and (max-width: 1024px) {
     .place {
         grid-template-columns: repeat(2, fit-content(440px));
-        gap: 48px 32px;
+        column-gap: 32px;
+        margin: 0;
     }
 }
 

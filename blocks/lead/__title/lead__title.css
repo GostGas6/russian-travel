@@ -11,21 +11,16 @@
     margin-bottom: 32px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1024px) {
     .lead__title {
-        margin-left: 24px;
-        margin-right: 24px;
-        margin-bottom: 32px;
-        font-size: 54px;
-        line-height: 58px;
-        width: 90%;
+        padding: 0;
+        
     }
 }
 
-@media screen and (max-width: 664px) {
+@media screen and (max-width: 768px) {
     .lead__title {
-        font-size: 48px;
-        line-height: 46px;
+        padding: 0 24px 32px 24px;
     }
 }
 
