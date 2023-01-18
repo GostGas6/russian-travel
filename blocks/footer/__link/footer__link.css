@@ -6,7 +6,6 @@
     text-decoration: none;
     font-family: 'Inter', 'Arial', sans-serif;
     opacity: 1;
-    margin-right: 18px;
 }
 
 
@@ -15,8 +14,6 @@
         margin: 0;
     }
 }
-
-
 
 .footer__link:hover {
     opacity: 0.6;

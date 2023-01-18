@@ -1,6 +1,7 @@
 .footer__link-container {
     display: flex;
     justify-content: space-between;
+    gap: 18px;
 }
 
 @media screen and (max-width: 767px) {
