@@ -14,3 +14,15 @@
         gap: 32px;
     }
 }
+
+@media screen and (max-width: 320px) {
+    .footer__link-container {
+        margin-bottom: 48px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .footer__link-container:last-of-type {
+        margin-bottom: 48px;
+    }
+}
