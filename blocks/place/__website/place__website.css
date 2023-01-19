@@ -2,7 +2,7 @@
     align-self: flex-end;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 336px) {
     .place__website {
         margin-left: 16px;
         margin-right: 16px;
