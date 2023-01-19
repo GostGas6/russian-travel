@@ -34,8 +34,10 @@
         margin-right: 16px;
         margin-left: 16px;
     }
+
     .place__paragraph:last-of-type {
         max-width: 288px;
         margin-right: 16px;
         margin-left: 16px;
+    }
 }
