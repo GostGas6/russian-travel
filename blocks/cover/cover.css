@@ -10,6 +10,7 @@
 @media screen and (max-width: 1024px) {
     .cover {
         margin: 0 auto;
+        margin-bottom: 92px;
     }
 }
 
